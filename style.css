@@ -1,0 +1,41 @@
+body{
+    background-color: blueviolet;
+}
+.main {
+    margin-top: 300px;
+    margin-left: 450px;
+    width: 350px;
+    height: 60px;
+    background-color: white;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    
+}
+.main p {
+    margin-top: 50px;
+    font-size: 3em;
+    color: blueviolet;
+    display: inline;
+}
+.btnParent{
+    margin-left: 500px;
+    margin-top: 15px;
+    color: blueviolet;
+}
+.btnParent button{
+    color: blueviolet;
+    font-size: 1.3em;
+    background-color: white;
+    border: none;
+    margin: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    height: 30px;
+    width: 70px;
+}
+.btnParent button:hover{
+    background-color: black;
+    color: white;
+}
